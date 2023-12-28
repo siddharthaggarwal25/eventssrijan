@@ -1,10 +1,10 @@
 import './App.css';
-import EventsPage from './components/EventsPage';
+import MyComponent from './components/MyComponent';
 
 function App() {
   return (
     <div className="App">
-      <EventsPage/>
+    <MyComponent/>
     </div>
   );
 }
