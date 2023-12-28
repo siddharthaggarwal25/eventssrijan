@@ -1,0 +1,7 @@
+.frontDiv {
+  position: relative;
+  z-index: 2; /* Ensure the front div is on top of the back div */
+  padding: 20px;
+  color: #ffffff; /* Adjust the text color as needed */
+}
+

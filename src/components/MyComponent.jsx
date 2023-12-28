@@ -15,13 +15,12 @@ function MyComponent(){
           mouseControls: true,
           touchControls: true,
           gyroControls: false,
-          minHeight: 400.0,
-          minWidth: 500.0,
+          minHeight: 300.0,
+          minWidth: 300.0,
           scale: 1.0,
           scaleMobile: 1.0,
           color1: "#ff0000",
-          color2: "0xffffff",
-          backgroundColor: 0x18181d
+          backgroundColor: 0x171724
         })
       );
     }
@@ -30,10 +29,7 @@ function MyComponent(){
     };
   }, [vantaEffect]);
   return (
-    <div ref={vantaRef} >
-      <p style={{ color: "#fff", paddingTop: "20px" }}>
-        Animated website backgrounds in a few lines of code.
-      </p>
+    <div className="" ref={vantaRef} style={{ width: "100%" , height: "100vh"  ,position:"fixed"}}   >
     </div>
   );
 };
